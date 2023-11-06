@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffe4c4">
+
+
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/btnGestionFiliere"
+        android:text="Gestion Filière"
+        android:background="#00ce93"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/btnGestionEtudiant"
+        android:text="Gestion Étudiant"
+        android:background="#FF69B4"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/btnGestionRole"
+        android:text="Gestion Rôle"
+        android:background="#00ce93"/>
+
+</LinearLayout>
